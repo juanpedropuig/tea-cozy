@@ -46,9 +46,10 @@ header {
 /* Main content */
 main {
   position: relative;
-  top: 69px;
+  top: 49px;
   width: 1200px;
   z-index: 0;
+  margin: 0 auto;
 }
 
 /* Banner section */
@@ -57,6 +58,7 @@ main {
   height: 700px;
   display: flex;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .banner {
@@ -66,4 +68,22 @@ main {
 
 /* Tea of the month section */
 .month-tea {
+  margin-bottom: 60px;
 }
+
+.tea-images {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image {
+  margin: 20px;
+}
+
+.image img {
+  height: 200px;
+  width: 300px;
+}
+
+/*  */

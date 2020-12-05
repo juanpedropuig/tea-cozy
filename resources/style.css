@@ -47,4 +47,23 @@ header {
 main {
   position: relative;
   top: 69px;
+  width: 1200px;
+  z-index: 0;
+}
+
+/* Banner section */
+.welcome {
+  background-image: url('images/img-mission-background.webp');
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea of the month section */
+.month-tea {
 }

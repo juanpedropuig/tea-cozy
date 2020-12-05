@@ -111,4 +111,22 @@ main {
   margin: 0 20px;
 }
 
+.address p {
+  padding: 10px 0;
+}
+
 /* Contact information section */
+.contacts {
+  margin-top: 40px;
+  height: 200 px;
+  align-content: space-between;
+}
+
+/* Footer content */
+footer {
+  position: relative;
+  top: 69px;
+  text-align: left;
+  margin: 20px;
+  padding: 5px 0;
+}

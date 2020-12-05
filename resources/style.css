@@ -8,16 +8,43 @@ html {
 }
 
 /* Nevigation bar */
+header {
+  z-index: 3;
+}
+
 .content {
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
   background-color: black;
   width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo {
+.content img {
   height: 50px;
   margin-left: 10px;
 }
 
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list li {
+  margin: 5px; 
+}
+
+.list a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  position: relative;
+  top: 69px;
+}
